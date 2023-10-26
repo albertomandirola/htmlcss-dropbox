@@ -7,12 +7,17 @@
 /*  COMMON */
 
 .container{
-    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .container-big{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container-full{
+    width: 100%;
 }
 
 .row{
@@ -25,7 +30,26 @@
     border: 1px solid gray;
 }
 
+.square{
+    background-color: red;
+    border: 1px black solid;
+    width: 100%;
+    height: calc(100vw / 6);
+}
+
+.f-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* SECTION COLUMN */
+
+.col-20{
+    width: 20%;
+}
+
+.col-33{
+    width: calc(100% / 3 );
+}
 
 .col-40{
     width: 40%;
@@ -52,6 +76,11 @@
 .height-400{
     height: 400px;
 }
+
+#height-full{
+    height: 100%;
+}
+
 /* SECTION BACKGROUND */
 
 .bg-header{
@@ -60,4 +89,19 @@
 
 .bg-lightblue{
     background-color: lightblue;
+}
+
+.bg-footer{
+    background-color: darkslategray;
+}
+
+.bg-img{
+    background-color: lightgreen;
+}
+.bg-write{
+    background-color: lightcoral;
+}
+
+.bg-title{
+    background-color: lightgoldenrodyellow;
 }
