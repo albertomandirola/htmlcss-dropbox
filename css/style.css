@@ -3,3 +3,61 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*  COMMON */
+
+.container{
+    width: 100%;
+}
+
+.container-big{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content{
+    border: 1px solid gray;
+}
+
+/* SECTION COLUMN */
+
+.col-40{
+    width: 40%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+/* SECTION HEIGHT*/
+
+.height-75{
+    height: 75px;
+}
+
+.height-400{
+    height: 400px;
+}
+/* SECTION BACKGROUND */
+
+.bg-header{
+    background-color: aliceblue;
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
