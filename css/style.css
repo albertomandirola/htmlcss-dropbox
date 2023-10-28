@@ -220,6 +220,10 @@ li a{
     margin: 25px;
 }
 
+.margin-left{
+    margin-left: 10px;
+}
+
 .padding-y-20{
     padding: 20px 0;
 }
