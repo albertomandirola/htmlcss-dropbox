@@ -31,8 +31,6 @@
 }
 
 .square{
-    background-color: red;
-    border: 1px black solid;
     width: 100%;
     height: calc(100vw / 6);
 }
@@ -153,6 +151,10 @@ li a{
     background-color: rgb(34, 105, 236);
 }
 
+.svg{
+    max-width: 50%;
+}
+
 
 /* SECTION FONT MODELLING */
 
@@ -201,6 +203,13 @@ li a{
 
 .relative{
     position: relative;
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50% , 50%);
 }
 /* SECTION MARGIN , PADDING , GAP*/
 
