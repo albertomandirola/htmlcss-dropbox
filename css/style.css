@@ -27,10 +27,7 @@
 }
 
 .content{
-    /* border: 1px solid gray; */
-    
-    padding: 20px;
-    
+       
 }
 
 .square{
@@ -44,6 +41,14 @@ img{
     max-width: 100%;
 }
 
+button{
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+}
+
+
+
 /* HEADER */
 
 header{
@@ -51,12 +56,6 @@ header{
 }
 header ul{
     list-style-type: none; 
-}
-
-header button{
-    padding: 5px 10px;
-    border: none;
-    background-color: white;
 }
 
 li a{
@@ -98,6 +97,15 @@ li a{
 .col-100{
     width: 100%;
 }
+
+.fix-gap .col-33{
+    width: calc(100% / 3 - 20px );
+}
+
+.fix-gap .col-60{
+    width: calc(60% - 30px );
+}
+
 
 /* SECTION HEIGHT*/
 
@@ -142,8 +150,9 @@ li a{
 }
 
 .bg-blue{
-    background-color: blue;
+    background-color: rgb(34, 105, 236);
 }
+
 
 /* SECTION FONT MODELLING */
 
@@ -158,8 +167,19 @@ li a{
 .fs-big{
     font-size: 70px;
 }
+
+.short{
+    width: 25%;
+}
+
+.big{
+    width: 100%;
+}
 /* SECTION FLEXBOX AND POSITIONING */
 
+.ta-center{
+    text-align: center;
+}
 .f-end{
     justify-content: flex-end;
 }
@@ -185,13 +205,48 @@ li a{
 /* SECTION MARGIN , PADDING , GAP*/
 
 .margin-20{
+    margin: 20px;
+}
+
+.margin-y-20{
     margin: 20px 0;
 }
 
-.padding-top-100px{
-    padding-top: 100px;
+.margin-100{
+    margin-top: 100px;
 }
 
-.padding-top-50{
-    padding-top: 50px;
+.margin-list{
+    margin: 25px;
+}
+
+.padding-y-20{
+    padding: 20px 0;
+}
+
+.padding-y-5{
+    padding: 5px 0;
+}
+
+.padding-top-80{
+    padding-top: 80px;
+}
+
+
+
+.gap-20{
+    gap: 30px;
+}
+
+.border{
+    border: 1px solid gray;  
+}
+/* SECTION LIST */
+
+.user{
+    list-style: url(../img/user.svg);
+}
+
+.check-blue{
+    list-style: url(../img/check.svg);
 }
