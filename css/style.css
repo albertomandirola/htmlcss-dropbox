@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik Mono One', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 /*  COMMON */
 
 .container{
@@ -53,11 +59,20 @@ header ul{
     list-style-type: none; 
 }
 
-li a{
+header li a{
     text-decoration: none;
     padding: 0 10px;
 }
 
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer li{
+    padding: 10px 0;
+}
 /* SECTION COLUMN */
 
 .col-20{
@@ -194,6 +209,7 @@ svg{
     fill: white;
     width: 50%;
 }
+
 /* SECTION FLEXBOX AND POSITIONING */
 
 .ta-center{
