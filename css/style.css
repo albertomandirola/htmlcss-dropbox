@@ -54,6 +54,7 @@ h1{
 
 h2{
     margin: 60px 0;
+    font-size: 36px;
 }
 
 h3{
@@ -277,6 +278,10 @@ svg{
     display: inline-block;
 }
 
+.pa-top{
+    position: absolute;
+    top: 10%;
+}
 .pa-right{
     position: absolute;
     right: 0;
